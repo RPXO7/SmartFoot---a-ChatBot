@@ -77,7 +77,7 @@ const SearchBar = () => {
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Type message"
-            className={`flex-grow p-3  rounded-l-md focus:outline-none ${theme === 'dark' ? 'bg-gray-700 text-white border-gray-600' : 'border-slate-700'} focus:ring-2 ${theme === 'dark' ? 'focus:ring-white' : 'focus:ring-slate-700'} hover:outline-1`}
+            className={`flex-grow p-3 rounded-l-md focus:outline-none ${theme === 'dark' ? 'bg-gray-700 text-white border-gray-600' : 'border-slate-700'} focus:ring-2 ${theme === 'dark' ? 'focus:ring-white' : 'focus:ring-slate-700'} hover:outline-1`}
           />
           <button
             type="submit"
